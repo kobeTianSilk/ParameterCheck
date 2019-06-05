@@ -1,0 +1,10 @@
+repos:
+    - repo: git@github.com:kobeTianSilk/ParameterCheck.git
+      sha: 352adf603fa453be59319c1a5f080ceccee02c6e
+      hooks:
+          - id: pylint
+          - id: isort
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v1.2.3
+      hooks:
+          - id: flake8
